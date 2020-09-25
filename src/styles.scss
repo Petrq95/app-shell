@@ -1,0 +1,20 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import '~primeng/resources/primeng.min.css';
+@import '~primeng/resources/themes/saga-blue/theme.css';
+@import '~primeicons/primeicons.css';
+body{
+    background: grey;
+    margin: 0;
+    font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+shyft-app-shell .p-sidebar-left{
+    margin: 60px 0px;
+    width: 250px !important;
+    padding: 0;
+    border-right:1px solid #dee2e6 ;
+   
+}
+shyft-app-shell .p-sidebar{
+    box-shadow: 0px 0px 0px 0px;
+}

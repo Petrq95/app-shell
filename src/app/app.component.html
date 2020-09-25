@@ -1,0 +1,11 @@
+<div style="height: 60px; background: white; border: 1px solid;">
+  <button (click)="display = !display">Toggle</button>
+</div>
+<shyft-app-shell
+    (navigationChanged)="changed($event)"
+    [showCloseIcon]="false"
+    [modal]="false"
+    [display]="display"
+    [navList]="navList"
+    >
+</shyft-app-shell>

@@ -1,0 +1,8 @@
+<p-sidebar [showCloseIcon]="false" [modal]="false" [(visible)]="display">
+    <div class="nav-list-wrapper">
+        <div style="display: flex; flex-direction: column;" *ngFor="let blocks of navList; let i = index">
+            <a class="nav-headers">{{getKey(blocks) | uppercase}}</a>
+            <a class="nav-links" *ngFor="let item of blocks[getKey(blocks)]" (click)="changeNavigation(item)">{{item.linkName}}</a>
+        </div>
+    </div>
+</p-sidebar>
